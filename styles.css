@@ -4,7 +4,7 @@ body{
 .container-header{
     width: 100%;
     height: 200px;
-    background-color: aqua;
+    background-color: darkseagreen;
 }
 
 .container-section-promo{
@@ -12,10 +12,35 @@ body{
     width: 70%;
     margin: 100px auto;
     align-items: center;
+    flex-direction: column;
 }
 
 .item-article{
-    width: 30%;
-    height: 100px;
-    background-color: red;
+    /* width: 30%;
+    height: 100px; */
+    /* background-color: red; */
 }
+
+h3 {
+    font-family: "Arial";
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .item-article > p {
+    font-family: "Verdana";
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .item-article > form {
+    display: flex;
+  }
+  
+  .item-article > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
